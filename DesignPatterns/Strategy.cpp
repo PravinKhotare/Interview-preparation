@@ -73,6 +73,7 @@ class Duck
 
 int main()
 {
+    // create duck which can have multiple startegies/algorithms
     Duck NormalDuck(new FastSwim(), new SlowFly());
     std::cout << "Normal Duck : " << std::endl;
     NormalDuck.fly();
