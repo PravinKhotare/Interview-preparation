@@ -7,6 +7,7 @@ class IFlyStartegy
     virtual void fly() = 0;
 };
 
+// can have multiple startegies/algorithms for flying
 class SlowFly : public IFlyStartegy
 {
     public:
