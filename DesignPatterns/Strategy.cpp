@@ -1,3 +1,4 @@
+// strategy pattern
 #include <iostream>
 
 class IFlyStartegy
@@ -77,7 +78,6 @@ int main()
     NormalDuck.fly();
     
     NormalDuck.swim();
-
 
     Duck AbNormalDuck(new SlowSwim(), new SlowFly());
     std::cout << "AbNormal Duck : " << std::endl;
