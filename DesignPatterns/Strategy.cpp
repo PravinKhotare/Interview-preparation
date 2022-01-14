@@ -26,6 +26,7 @@ class FastFly : public IFlyStartegy
     }
 };
 
+// can have multiple startegies/algorithms for swiming
 class ISwimStartegy
 {
     public:
